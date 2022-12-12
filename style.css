@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url('./image/pexels-guillaume-meurice-1591447.jpg')no-repeat;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.registration form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 330px;
+}
+
+
+.logo{
+    margin-top:60px;
+    font-family: sans-serif;
+    color: blue;
+    font-size: 30px;
+    margin-left:515px;
+    text-transform: uppercase;
+}
+
+.registration form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.registration form input{
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0%;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+}
+
+.registration form button{
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width:50%;
+    background-color: white;
+}
